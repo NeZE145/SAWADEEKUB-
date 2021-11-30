@@ -13,6 +13,9 @@ int adiff(int A, int B){
   if(C<0){
     C=C*-1;
   }
+  if(C>360){
+    C=360-C;
+  }
   return C;
 
 }
