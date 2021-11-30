@@ -44,7 +44,7 @@ int main(){
 	if(C==D){
 		cout<< "Palindrome: Yes";
 	}else{
-		cout<< "Palindrome: NO";
+		cout<< "Palindrome: No";
 	}
 
     return 0;
